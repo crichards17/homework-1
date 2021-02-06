@@ -72,9 +72,13 @@ header nav ul li {
 Hero
 Size and style the page hero image
 */
+
 #hero img {
+    display: block;
     height: 800px;
-    width: 100%;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
